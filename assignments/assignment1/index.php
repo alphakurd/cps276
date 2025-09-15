@@ -57,5 +57,19 @@
       <fieldset>
         <legend class="col-form-label pt-0">Preferred method of contact</legend>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="preferred_contact" id="contactEmail" value="email" required />
-          <label class="form-check-label
+          <input class="form-check-input" type="radio" name="preferred_contact" id="contactEmail" value="email" required>
+          <label class="form-check-label" for="contactEmail">Email</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="preferred_contact" id="contactText" value="text" required>
+          <label class="form-check-label" for="contactText">Text</label>
+        </div>
+      </fieldset>
+    </div>
+
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </form>
+</body>
+</html>
