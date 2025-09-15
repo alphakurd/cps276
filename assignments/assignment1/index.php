@@ -9,7 +9,7 @@
 <body class="container py-4">
   <h1 class="h3 mb-4">Form Project</h1>
 
-  <form method="post" action="#" class="row g-3" autocomplete="on">
+  <form method="post" action="#" class="row g-3">
     <div class="col-md-6">
       <label for="firstName" class="form-label">First Name</label>
       <input type="text" class="form-control" id="firstName" name="firstName" required />
@@ -58,18 +58,4 @@
         <legend class="col-form-label pt-0">Preferred method of contact</legend>
         <div class="form-check form-check-inline">
           <input class="form-check-input" type="radio" name="preferred_contact" id="contactEmail" value="email" required />
-          <label class="form-check-label" for="contactEmail">Email</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="preferred_contact" id="contactText" value="text" required />
-          <label class="form-check-label" for="contactText">Text</label>
-        </div>
-      </fieldset>
-    </div>
-
-    <div class="col-12">
-      <button type="submit" class="btn btn-primary">Sign in</button>
-    </div>
-  </form>
-</body>
-</html>
+          <label class="form-check-label
